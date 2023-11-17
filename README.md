@@ -60,6 +60,10 @@ Grant database privledges to new user:
 
 grant all on exampleDatabase.* to 'exampleuser'@'localhost';
 
+Now to access MySQL using node.js:
+
+npm install mysql 
+
 
 
 
