@@ -12,8 +12,11 @@ Create the back-end server and install the required dependencies:
 mkdir server
 
 cd server
+
 npm init -y
+
 npm install express cors
+
 npm install nodemon --save-dev
 
 add this to package.json:
@@ -31,10 +34,13 @@ To run the back-end server: npm run dev
 Install and set up MySQL:
 
 sudo apt update
+
 sudo apt install mysql-server
 
 sudo mysql
+
 alter user 'root'@'localhost' identified with mysql_native_password by "yourpassword";
+
 exit
 
 mysql_secure_installation
