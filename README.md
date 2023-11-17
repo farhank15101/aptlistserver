@@ -51,7 +51,6 @@ mysql -u root -p
 
 Then enter your password
 
-create database:
 
 create database exampleDatabase;
 
