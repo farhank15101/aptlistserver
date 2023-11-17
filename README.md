@@ -10,6 +10,7 @@ npx create-react-app client
 Create the back-end server and install the required dependencies:
 
 mkdir server
+
 cd server
 npm init -y
 npm install express cors
